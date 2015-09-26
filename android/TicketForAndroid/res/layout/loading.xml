@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>  
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+     android:orientation="vertical"  
+     android:gravity="center|center"  
+     android:layout_width="fill_parent"  
+     android:layout_height="fill_parent"  
+     android:background="@drawable/biz_news_local_weather_bg_big" 
+     > 
+     <LinearLayout android:layout_height="100dp"
+         android:layout_width="match_parent"
+         android:orientation="vertical">
+         <TextView android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:text="汽车购票系统"
+             android:gravity="center"
+             android:textSize="30sp"
+             android:textColor="#F5FFFA"
+             android:textStyle="bold"
+             />
+     </LinearLayout> 
+     <LinearLayout android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical">
+          <LinearLayout android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="9"></LinearLayout>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+             android:gravity="center"
+             android:textColor="#EEE9E9"
+             android:layout_marginBottom="10dp"
+             android:textSize="20sp"
+             android:textStyle="bold"
+             android:text="版本：1.0" />
+
+     </LinearLayout>
+ </LinearLayout>  

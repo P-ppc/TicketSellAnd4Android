@@ -1,0 +1,6 @@
+<resources>
+    <color name="transparent_background">#00000000</color>
+    <color name="gray">#10000000</color>
+    <color name="button">#00B2EE</color>
+    <color name="button_press">#009ACD</color>
+</resources>

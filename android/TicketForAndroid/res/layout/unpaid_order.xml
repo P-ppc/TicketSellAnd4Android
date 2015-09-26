@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+     android:orientation="vertical">
+       <include layout="@layout/top"/>    
+       <LinearLayout android:layout_width="match_parent"
+           android:layout_weight="9"
+           android:layout_height="0dp">
+           <ListView android:id="@+id/unpaid_order_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:listSelector="@android:color/transparent"></ListView>   
+       </LinearLayout>
+       
+       <ImageView android:layout_width="match_parent"
+         android:layout_height="5dp"
+         android:src="@drawable/biz_pc_account_line"/>
+</LinearLayout>

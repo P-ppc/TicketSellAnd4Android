@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#5CACEE" >
+
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="XX车票"
+        android:textColor="#ffffff"
+        android:id="@+id/main_top_textview"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/topButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/text_view"
+        android:clickable="true"
+        android:src="@drawable/ic_top_bar_category" />
+
+    </RelativeLayout>

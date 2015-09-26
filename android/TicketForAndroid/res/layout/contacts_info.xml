@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <include layout="@layout/top"/>
+      <LinearLayout android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+          <ListView
+            android:id="@+id/contacts_listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+            android:listSelector="@android:color/transparent" >
+          </ListView>
+        </LinearLayout>
+        <Button android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:layout_margin="15dp"
+            android:text="添加购票人"
+            android:id="@+id/contacts_info_addContact"
+            android:textColor="#ffffffff"
+            android:background="@drawable/button_view"
+            />
+</LinearLayout>

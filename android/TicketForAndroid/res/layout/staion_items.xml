@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="vertical"
+    android:background="@drawable/text_view" >
+    <TextView android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/station_query"
+        android:text="北京"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"/>
+
+</LinearLayout>

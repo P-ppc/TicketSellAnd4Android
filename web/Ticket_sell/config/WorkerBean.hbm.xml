@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping SYSTEM "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping
+	package="com.ppc.Ticket_sell.bean"
+	default-access="field">
+
+	<class name="WorkerBean" table="tbWorker">
+	<id name="workerName" column="workerName">
+	</id>
+	<property name="password"></property>
+	<property name="name"></property>
+	<property name="tel"></property>
+	<many-to-one name="job" column="jobNum" cascade="none" lazy="false"></many-to-one>
+	<many-to-one name="jurisdiction" column="jurisdictionNum" cascade="none" lazy="false"></many-to-one>
+	</class>
+    
+    
+     
+</hibernate-mapping>

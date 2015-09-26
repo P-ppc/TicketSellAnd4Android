@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/biz_news_local_weather_bg_big"
+    android:orientation="vertical"
+     >
+    <com.jeremyfeinstein.slidingmenu.lib.SlidingMenu android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/slidingmenulayout">
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="50dp" 
+            android:id="@+id/contactsslidingmenu"
+            android:background="@drawable/text_view"
+            android:clickable="true"
+            android:orientation="vertical">
+            <TextView android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="联系人"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout> 
+        <View android:layout_height="0.2dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/biz_pc_account_line"
+                />
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="50dp" 
+            android:id="@+id/unpaid_order_menu"
+            android:background="@drawable/text_view"
+            android:clickable="true"
+            android:orientation="vertical">
+            <TextView android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="未完成订单"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"/>
+           
+        </LinearLayout> 
+         <View android:layout_height="0.2dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/biz_pc_account_line"
+                />
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="50dp" 
+            android:background="@drawable/text_view"
+            android:clickable="true"
+            android:id="@+id/menu_paid_order"
+            android:orientation="vertical">
+            <TextView android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="已完成订单"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"/>
+            
+        </LinearLayout> 
+        <View android:layout_height="0.2dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/biz_pc_account_line"
+                />
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="50dp" 
+            android:background="@drawable/text_view"
+            android:clickable="true"
+            android:id="@+id/menu_account_cahange"
+            android:orientation="vertical">
+            <TextView android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="账号切换"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"/>
+            
+        </LinearLayout> 
+        <View android:layout_height="0.2dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/biz_pc_account_line"
+                />
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="50dp" 
+            android:background="@drawable/text_view"
+            android:clickable="true"
+            android:id="@+id/app_finish_layout"
+            android:orientation="vertical">
+            <TextView android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="退出"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"/>
+           
+        </LinearLayout> 
+        <View android:layout_height="0.2dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/biz_pc_account_line"
+                />
+       </LinearLayout>
+    </com.jeremyfeinstein.slidingmenu.lib.SlidingMenu>
+</LinearLayout>

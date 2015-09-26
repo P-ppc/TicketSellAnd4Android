@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping SYSTEM "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping
+	package="com.ppc.Ticket_sell.bean"
+	default-access="field">
+	<class name="PhoneUserBean" table="tbPhoneUser">
+	<id name="userName" >
+	</id>
+	<property name="password"></property>
+	<property name="tel"></property>
+	<property name="email" column="Email"></property>
+	</class>
+    
+    
+     
+</hibernate-mapping>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="lib" path="D:/Worktools/jackson/jackson-annotations-2.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Worktools/jackson/jackson-core-2.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Worktools/jackson/jackson-core-asl-1.8.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Worktools/jackson/jackson-databind-2.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Worktools/jackson/jackson-mapper-asl-1.8.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Worktools/jackson/jackson-module-jaxb-annotations-2.2.1.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

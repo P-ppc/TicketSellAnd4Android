@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping SYSTEM "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping
+	package="com.ppc.Ticket_sell.bean"
+	default-access="field">
+
+	<class name="TicketBean" table="tbTicket">
+	<id name="ticketNum" column="ticketNum">
+	   <generator class="native"></generator>
+	</id>
+	<property name="start_station"></property>
+	<property name="end_station"></property>
+	<property name="price"></property>
+	<property name="time"></property>
+	<property name="motorcoach_number"></property>
+	<property name="seatNum"></property>
+	</class>
+    
+    
+     
+</hibernate-mapping>

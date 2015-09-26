@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+     android:orientation="vertical">
+     <include layout="@layout/top"/>
+     <LinearLayout android:layout_height="0dp"
+         android:layout_width="match_parent"
+         android:layout_weight="1">
+         <ListView android:id="@+id/choose_contact_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:listSelector="@android:color/transparent"></ListView>
+     </LinearLayout>
+     <LinearLayout android:layout_height="50dp"
+         android:layout_width="match_parent"
+         android:orientation="horizontal"
+         android:layout_margin="10dp">
+         <Button android:layout_height="match_parent"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_marginRight="5dp"
+             android:id="@+id/choose_contact_btnOk"
+             android:text="确定"
+             android:textColor="#ffffffff"
+             android:background="@drawable/button_view"/>
+          <Button android:layout_height="match_parent"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:id="@+id/choose_contact_addContact"
+             android:layout_marginLeft="5dp"
+             android:text="新建购票人"
+             android:textColor="#ffffffff"
+             android:background="@drawable/button_view"/>
+     </LinearLayout>
+</LinearLayout>

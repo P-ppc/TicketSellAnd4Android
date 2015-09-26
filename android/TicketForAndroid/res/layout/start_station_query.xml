@@ -1,0 +1,47 @@
+<LinearLayout
+    android:id="@+id/LinearLayout01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+   <include layout="@layout/top"/>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <LinearLayout android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+            <TextView android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="60dp"
+              android:gravity="center"
+              android:textColor="#80000000"
+              android:text="起点站"/>
+            <EditText android:layout_width="0dp"
+               android:layout_height="60dp"
+               android:layout_weight="3"
+               android:id="@+id/start_station_query_edit"/>
+        </LinearLayout>
+        
+        <Button android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_view"
+            android:textColor="#ffffffff"
+            android:gravity="center"
+            android:id="@+id/start_station_query_button"
+            android:text="查询"/>
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:src="@drawable/biz_pc_account_line"/>
+    <ListView android:layout_width="match_parent" 
+          android:layout_height="wrap_content" 
+          android:id="@+id/start_station_listview"
+          android:listSelector="@android:color/transparent"
+          />
+</LinearLayout>
